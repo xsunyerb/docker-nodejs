@@ -6,22 +6,22 @@ Simple dockerized nodejs server
 docker build . -t xsunyerb/docker-nodejs
 ```
 
-# Run the image
+### Run the image
 ```
 docker run -p 49160:8080 -d xsunyerb/docker-nodejs
 ```
 
-# Get container ID
+### Get container ID
 ```
 docker ps
 ```
 
-# Print app output
+### Print app output
 ```
 docker logs <container id>
 ```
 
-# Open a terminal on the container
+### Open a terminal on the container
 ```
 docker exec -it <container id> /bin/bash
 ```
